@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" /a>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>เรซูเม่ส่วนตัว</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="profile-pic" style="background-image: url('https://via.placeholder.com/120');"></div>
+      <div>
+        <h1>SIRIRAT RODJANASOONTHON</h1>
+        <p><span class="highlight">ชื่อเล่น:</span> ดรีม </p>
+        <p><span class="highlight">อายุ:</span> 28 ปี</p>
+        <p><span class="highlight">วันเกิด:</span> 27 มิถุนายน 2540 </p>
+        <p><span class="highlight">Line ID:</span> Sr.dream</p>
+        <p><span class="highlight">เบอร์โทร:</span> 091 871 1723 </p>
+      </div>
+    </header>
+
+    <!-- ส่วนที่สามารถคลิกซ่อนได้ -->
+    <div class="section toggle-section">
+      <h2 onclick="toggleSection(this)">คำแนะนำตัว ♡ </h2>
+      <div class="content">
+        <p>[คำแนะนำตัวสั้น ๆ เกี่ยวกับคุณ]</p>
+      </div>
+    </div>
+
+    <div class="section toggle-section">
+      <h2 onclick="toggleSection(this)">สถานศึกษา ♡</h2>
+      <div class="content">
+        <ul>
+          <li>[ชื่อโรงเรียนหรือมหาวิทยาลัย] - [ปีจบ]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section toggle-section">
+      <h2 onclick="toggleSection(this)">ประวัติการทำงาน ♡ </h2>
+      <div class="content">
+        <ul>
+          <li>[ตำแหน่ง - บริษัท (ปี)]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section toggle-section">
+      <h2 onclick="toggleSection(this)">ทักษะและความสามารถ ♡</h2>
+      <div class="content">
+        <ul>
+          <li>[ตัวอย่าง: ออกแบบกราฟิก, เขียนโค้ด, ภาษาอังกฤษ]</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section toggle-section">
+      <h2 onclick="toggleSection(this)">ผลงาน (Portfolio) ♡</h2>
+      <div class="content portfolio">
+        <p>รวมผลงานบางส่วน:</p>
+        <img src="https://via.placeholder.com/300x200" alt="ผลงาน 1">
+        <img src="https://via.placeholder.com/300x200" alt="ผลงาน 2">
+      </div>
+    </div>
+  </div>
+
+  <script src="JAVA.js"></script>
+</body>
+</html>
